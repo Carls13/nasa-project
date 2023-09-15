@@ -24,20 +24,20 @@ describe("Launches API", () => {
     const completeLaunchData = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 b",
+      target: "Kepler-442 b",
       launchDate: "January 4, 2028",
     };
 
     const completeLaunchDataWithoutDate = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 b",
+      target: "Kepler-442 b",
     };
 
     const completeLaunchDataWithInvalidDate = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 b",
+      target: "Kepler-442 b",
       launchDate: "wrong",
     };
 
