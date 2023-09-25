@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest --detectOpenHandles",
     "test-watch": "jest --watch --detectOpenHandles",
-    "watch": "set PORT=8000&& nodemon src/server.js",
-    "start": "set PORT=8000&& node src/server.js",
+    "watch": "PORT=8000 nodemon src/server.js",
+    "start": "PORT=8000 node src/server.js",
     "cluster": "pm2 start src/server.js -i max"
   },
   "keywords": [],
